@@ -16,6 +16,8 @@ public class MainJs {
 	    JavascriptExecutor js =(JavascriptExecutor)driver;
 	    String title = js.executeScript("return performance.getEntries();").toString();
 	    System.out.println(title);
+	    
+	    driver.quit();
 		
 	}
 

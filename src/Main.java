@@ -85,11 +85,11 @@ public class Main {
 							status = response.getInt("status");
 
 							System.out.println(
-									"---------- bingo !!!!!!!!!!!!!! returned response for "
+									" !!!!!!!!!!!!!! returned response for "
 											+ messageUrl + ": " + status);
 
 							System.out.println(
-									"---------- bingo !!!!!!!!!!!!!! headers: "
+									" !!!!!!!!!!!!!! headers: "
 											+ response.get("headers"));
 						}
 					}
