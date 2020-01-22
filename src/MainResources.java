@@ -9,7 +9,7 @@ public class MainResources {
 		System.setProperty("webdriver.chrome.driver","E:\\Jars\\ChromeDriver-79\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-	    String baseUrl = "http://demo.guru99.com/test/login.html";
+	    String baseUrl = "https://www.google.com/";
 	    
 	    driver.get(baseUrl);
 	    
